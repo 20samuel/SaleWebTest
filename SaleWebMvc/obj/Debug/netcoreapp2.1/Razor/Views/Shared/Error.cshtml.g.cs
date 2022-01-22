@@ -19,7 +19,7 @@ using SaleWebMvc;
 #line default
 #line hidden
 #line 2 "C:\Users\Samuel\Desktop\Seção 17\SaleWebMvc\SaleWebMvc\Views\_ViewImports.cshtml"
-using SaleWebMvc.Models;
+using SaleWebMvc.Models.ViewModels;
 
 #line default
 #line hidden
