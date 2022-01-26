@@ -9,10 +9,12 @@ namespace SaleWebMvc.Services
 {
     public class DepartmentService
     {
-        private SaleWebMvcContext _context;
+        private readonly SaleWebMvcContext _context;
+
         public DepartmentService(SaleWebMvcContext context)
         {
             _context = context;
+
         }
 
         public async Task<List<Department>> FindAllAsync()
