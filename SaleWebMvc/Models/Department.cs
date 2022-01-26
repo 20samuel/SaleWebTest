@@ -23,7 +23,7 @@ namespace SaleWebMvc.Models
         {
             Sellers.Add(sl);
         }
-        public double TotalSellers(DateTime initial, DateTime final)
+        public double TotalSales(DateTime initial, DateTime final)
         {
             return Sellers.Sum(seler => seler.TotalSales(initial, final));
         }

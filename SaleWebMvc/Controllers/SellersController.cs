@@ -7,6 +7,7 @@ using SaleWebMvc.Services.Exceptions;
 using System.Diagnostics;
 using System;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace SaleWebMvc.Controllers
 {
